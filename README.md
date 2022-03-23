@@ -4,7 +4,7 @@
 
 [Official documentation.](https://developer.paypal.com/braintree/docs/start/tutorial-drop-in-node)
 
-PayPal BrainTree Drop-in UI is a ready-made payment UI that offers the quickest way to integrate and start securely accepting payments with Braintree. In this repository, I wanted to show you how easy it would be to integrate this popular payment platform in your Node.js app. The documentation is very easy to follow, what you will find in this app is only the payment section and the chance to pay with a sandbox account (please see pictures below). You can add this example to your app, follow the documentation to learn how to create your SandBoc (test) account.
+PayPal BrainTree Drop-in UI is a ready-made payment UI that offers the quickest way to integrate and start securely accepting payments with Braintree. In this repository, I wanted to show you how easy it would be to integrate this popular payment platform in your Node.js app or webpage. The documentation is very easy to follow, what you will find in this app is only the payment section and the chance to pay with a sandbox test account (please see pictures below). You can add this example to your app or webpage, follow the documentation to learn how to create your SandBox (test) account.
 
 If you would like an example in Python instead, please check my repository that integrates BrainTree with Python [here.](https://github.com/Renato79/braintree-flask-python-integration)
 
@@ -46,7 +46,7 @@ You will need to use your own Merchant ID, Public Key, Private Key to interact w
 Go to [Sandbox](https://sandbox.braintreegateway.com/), click on Settings at the top right (the gear icon), click on API, your account's details are right there. Replace these details in routes/checkout.js 
 
 ## How to complete a test transaction in this webapp
-- [Testing Credit Cards - Documentation](https://developer.paypal.com/braintree/docs/reference/general/testing): You can choose any credit card listed on the Testing webpage. Be aware that each test amount listed on the webpage will trigger the associated authorization response. Just choose a successful transaction to check the app.
+- [Testing Credit Cards - Documentation](https://developer.paypal.com/braintree/docs/reference/general/testing): You can choose any credit card listed on the Testing webpage. Be aware that each test amount listed on the webpage will trigger the associated authorization response. Just choose a successful transaction by credit card to test the app.
 - [PayPal Payment - Documentation](https://developer.paypal.com/developer/accounts): Follow the link on the left. If you choose to pay through PayPal, since you are testing, you would need to use personal test account name created with your developer account, that would be something like: sb-o16b11435112324@personal.example.com.
 
 
