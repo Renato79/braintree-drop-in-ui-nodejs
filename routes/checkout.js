@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const braintree = require('braintree');
+
+// We need to load the environment variable 
 const dotenv = require('dotenv')
 
 dotenv.config()
