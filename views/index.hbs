@@ -10,11 +10,8 @@
 
 <script>
   var button = document.querySelector('#submit-button');
-  const dotenv = require('dotenv')
 
-  dotenv.config()
-
-  var sKey = process.env.SANDBOX_KEY;
+  var sKey = 'sandbox_zj777w87_m94fcc9ggj9bjfs3';
 
   braintree.dropin.create({
     authorization: sKey,
