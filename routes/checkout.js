@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const braintree = require('braintree');
 
-
 var mID = process.env.BRAINTREE_MERCHANT_ID;
 var pbKey = process.env.BRAINTREE_PUBLIC_KEY;
 var pvtKey = process.env.BRAINTREE_PRIVATE_KEY;

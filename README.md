@@ -1,7 +1,5 @@
 <h1 align="center">PayPal BrainTree Payment Drop-in User Interface</h1>
 
-NOT COMPLETED YET
-
 [View the live project here.](https://braintree-drop-in-ui-nodejs.herokuapp.com/)
 
 [Official documentation.](https://developer.paypal.com/braintree/docs/start/tutorial-drop-in-node)

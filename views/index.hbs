@@ -10,9 +10,10 @@
 
 <script>
   var button = document.querySelector('#submit-button');
+  var sKey = process.env.SANDBOX_KEY;
 
   braintree.dropin.create({
-    authorization: process.env.SANDBOX_KEY,
+    authorization: sKey,
     container: '#dropin-container',
     paypal: {
       flow: 'checkout',
