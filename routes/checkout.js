@@ -6,9 +6,9 @@ router.post('/', (req, res, next) => {
   const gateway = new braintree.BraintreeGateway({
     environment: braintree.Environment.Sandbox,
     // Use your own credentials from the sandbox Control Panel here
-    merchantId: 'm94fcc9ggj9bjfs3',
-    publicKey: 'qr453jdk6drfkgv5',
-    privateKey: 'c966f534405a22336b6183cd95006ef9'
+    merchantId: process.env.MERCHANT_ID,
+    publicKey: process.env.PUBLIC_KEY,
+    privateKey: process.env.PRIVATE_KEY
   });
 
   // Use the payment method nonce here
