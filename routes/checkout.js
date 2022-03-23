@@ -2,11 +2,10 @@ const express = require('express');
 const router = express.Router();
 const braintree = require('braintree');
 
-/*
-var mID = process.env.BRAINTREE_MERCHANT_ID;
-var pbKey = process.env.BRAINTREE_PUBLIC_KEY;
-var pvtKey = process.env.BRAINTREE_PRIVATE_KEY;
-*/
+var mID = process.env.MERCHANT_ID;
+var pbKey = process.env.PUBLIC_KEY;
+var pvtKey = process.env.PRIVATE_KEY;
+
 router.post('/', (req, res, next) => {
   const gateway = new braintree.BraintreeGateway({
     environment: braintree.Environment.Sandbox,

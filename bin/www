@@ -5,6 +5,7 @@
  * Module dependencies.
  */
 
+/*
 var mID = process.env.BRAINTREE_MERCHANT_ID;
 app.set('mID', mID);
 var pbKey = process.env.BRAINTREE_PUBLIC_KEY;
@@ -13,7 +14,7 @@ var pvtKey = process.env.BRAINTREE_PRIVATE_KEY;
 app.set('pvtKey', pvtKey);
 var sKey = process.env.SANDBOX_KEY;
 app.set('sKey', sKey);
-
+*/
 
 var app = require('../app');
 var debug = require('debug')('braintreetutorial:server');
