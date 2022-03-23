@@ -11,12 +11,8 @@
 <script>
   var button = document.querySelector('#submit-button');
 
-  import dotenv from dotenv
-  //require('dotenv').config()
-  var sKey = process.env.SANDBOX_KEY;
-
   braintree.dropin.create({
-    authorization: sKey,
+    authorization: process.env.SANDBOX_KEY,
     container: '#dropin-container',
     paypal: {
       flow: 'checkout',
