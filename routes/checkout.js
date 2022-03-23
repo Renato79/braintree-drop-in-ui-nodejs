@@ -1,6 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const braintree = require('braintree');
+const dotenv = require('dotenv')
+
+dotenv.config()
 
 var mID = process.env.MERCHANT_ID;
 var pbKey = process.env.PUBLIC_KEY;
