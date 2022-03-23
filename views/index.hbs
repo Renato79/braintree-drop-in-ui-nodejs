@@ -12,7 +12,7 @@
   var button = document.querySelector('#submit-button');
 
   braintree.dropin.create({
-    authorization: 'sandbox_zj777w87_m94fcc9ggj9bjfs3',
+    authorization: process.env.SANDBOX_KEY,
     container: '#dropin-container',
     paypal: {
       flow: 'checkout',
